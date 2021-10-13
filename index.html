@@ -10,6 +10,7 @@
 <link href="./static/css/style.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript" src="./static/js/vector.js"></script>
+<script type="text/javascript" src="./static/js/login.js"></script>
 </head>
 
 <style type="text/css">
@@ -25,31 +26,22 @@
 <div id="container">
 	<div id="output">
 		<div class="containerT">
-			<h1>welconme to my word</h1>
+			<h1></h1>
             <form class="form" id="entry_form" method="post">
-                <h2><input type="text"  name="account"  style="height:30px"></h2><br>
-            <h2><input type="password"  name="pwd"  style="height:30px"></h2><br>
+                <h2><input type="text"  id="user" name="user"  style="height:30px"></h2><br>
+            <h2><input type="password"  id="pwd" name="pwd"  style="height:30px"></h2><br>
             <!-- <h2><input type="text"  name="account"  style="height:30px"></h2><br>
             <h2><input type="password"  name="pwd"  style="height:30px"></h2><br> -->
             <center>
-               <button><h3>确定</h3></button>    
-               <!-- <button onclick="javascript:jump()" type="button" id="add">确定</button> -->
-               
+               <!-- <button><h3>确定</h3></button>     -->
+                <button onclick="jump()" type="button" id="add">确定</button>
+               <!-- <button onclick="javascript:jump1()" type="button" id="add">确定</button> -->
                 <!-- <input type="button" value="确定" οnclick="javascript:jump()";>   -->
              </center>
 			</form>
 		</div>
 	</div>
 </div>
-<!-- 
-<script>
-    function jump(){
-        var a = document.getElementById("user").value;
-        var b = document.getElementById("pas").value;
-       if ((a == 15938788961) && b == 971011) {
-            window.location.href="./index.html";
-        }  
-    }</script> -->
 
-<!-- </body> -->
+</body>
 </html>
