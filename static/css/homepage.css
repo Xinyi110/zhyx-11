@@ -5,13 +5,22 @@
 }
 body {
 	/* 溢出隐藏 */
+	text-align: center;
+	background: linear-gradient(to right, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
 	overflow: hidden;
+}
+body p {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: cursive;
 }
 .navbar {
 	/* 相对定位 */
 	position: relative;
 	/* 元素的宽度占浏览器可视区域的宽度 */
-	width: 100vm;
+	width: 100px;
+	height: 100px;
 }
 .navbar input {
 	/* 隐藏元素 */
@@ -21,9 +30,9 @@ body {
 	position: absolute;
 	top: 0;
 	left: 70px;
-	width: 100%;
-	height: 43px;
-	padding-left: 20px;
+	width: 35px;
+	/* height: 43px;
+	padding-left: 20px; */
 	font-size: 30px;
 	color: #5a738e;
 	background-color: #ededed;
