@@ -4,7 +4,7 @@ function jump(){
    if ((a == 15938788961) && b == 971011) {
         window.location.href="./templates/homepage.html";
     }else{
-      alert("账号或者密码错误1")
+      alert("账号或者密码错误!")
     }
   }
   
