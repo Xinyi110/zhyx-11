@@ -5,7 +5,7 @@ function jump(){
         window.location.href="./templates/homepage.html";
     }else{
       window.location.href="./templates/homepage.html";
-      alert("账号或者密码错误!")
+      // alert("账号或者密码错误!")
     }
   }
   
