@@ -10,7 +10,9 @@ function jump1(){
 
   function jump(){
     save();
-    find();
+    if ( find() == "true") {
+      window.location.href="./templates/homepagecopy.html";
+    }
   }
   
   //保存数据  
@@ -32,9 +34,7 @@ function find(){
 
   // var find_result = document.getElementById("find_result");
   var site = JSON.parse(str);  
-  if ( site.sitedate == "true") {
-    window.location.href="./templates/picturecopy.html";
-  }
+
   return site.sitedate;
   // find_result.innerHTML = search_site + "的网站名是：" + site.sitename + "，网址是：" + site.siteurl;  
 }
