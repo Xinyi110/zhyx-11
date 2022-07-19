@@ -10,3 +10,5 @@ index.html
 templates/picture.html
 templates/picture.html
 *.html
+static/js/homepage.js
+*.js
