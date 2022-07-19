@@ -1,7 +1,15 @@
 function timerjump(){
-        window.location.href="./timer.html";
+      if ( window.location.pathname == "/D:/Github/zhyx-11/templates/homepagecopy.html") {
+            window.location.href="./timercopy.html";
+      }else{
+            window.location.href="./timer.html";
+      }
   }
 
   function picturejump(){
-      window.location.href="./picture.html";
+      if ( window.location.pathname == "/D:/Github/zhyx-11/templates/homepagecopy.html") {
+            window.location.href="./picturecopy.html";
+      }else{
+            window.location.href="./picture.html";
+      }
 }
